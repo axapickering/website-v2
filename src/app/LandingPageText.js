@@ -10,14 +10,15 @@ export default function LandingPageText() {
      position={'absolute'}
      borderRadius={'2%'}
      padding={'1rem'}
-     right={'5vw'}
+     right={'10vw'}
      bottom={'3vh'}
-     height={'55vh'}
-     width={'90vw'}
+     height={'35vh'}
+     width={'80vw'}
 
       >
-      <Typography sx={{ fontSize: { sm:'1.6rem', md:'1.7rem', lg:'2rem'},}} textAlign={'center'}>
+      <Typography sx={{ fontSize: { sm:'1rem', md:'1.3rem', lg:'1.6rem'},}} textAlign={'center'} color={'white'}>
       My intention for this website is not only to showcase my projects, but to convey my thoughts, beliefs, and values.
+      Thanks for stopping by.
       </Typography>
     </Box>
   );

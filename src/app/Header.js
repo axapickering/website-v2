@@ -46,13 +46,13 @@ export default function Header() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ bgcolor: "black" }}>
         <Toolbar>
           <IconButton
             size="large"
             edge="start"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 2, color: 'white' }}
           >
             <MenuIcon />
           </IconButton>

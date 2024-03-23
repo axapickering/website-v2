@@ -2,38 +2,38 @@ function createProjectItem(name, stack, github, demo, description) {
   return { name, stack, github, demo, description };
 }
 
-const projectData = [
-  ['How to gym (working name)',
+const projects = [
+  createProjectItem(
+    'How to gym',
     'Javascript, Next.js, Material UI',
     'https://github.com/axapickering/how-to-gym',
     '#',
     'Educational fitness app suitable for users of variable skill/knowledge levels'
-  ],
+  ),
 
-  ['ShareBnb',
-    'Javascript, Next.js, Material UI',
-    'https://github.com/axapickering/how-to-gym',
+   createProjectItem(
+    'ShareBnb',
+    'React, React-DOM , Flask, Jest, JWT, boto3',
+    'https://github.com/axapickering/sharebnb',
     '#',
-    'Educational fitness app suitable for users of variable skill/knowledge levels'
-  ],
+    'AirBnb-like space rental and booking site'
+  ),
 
-  ['Jobly',
-    'Javascript, Next.js, Material UI',
-    'https://github.com/axapickering/how-to-gym',
+   createProjectItem(
+    'Jobly',
+    'Express.js, JSONSchema, Bcrypt, CORS, Morgan',
+    'https://github.com/axapickering/express-jobly',
     '#',
-    'Educational fitness app suitable for users of variable skill/knowledge levels'
-  ],
+    'Job board including various companies and roles, with search features'
+  ),
 
-  ['Warblr',
-    'Javascript, Next.js, Material UI',
-    'https://github.com/axapickering/how-to-gym',
+   createProjectItem(
+    'Warbler',
+    'Flask, SQLAlchemy ORM, Flask-WTForms, Bcrypt, Jinja',
+    'https://github.com/axapickering/warbler',
     '#',
-    'Educational fitness app suitable for users of variable skill/knowledge levels'
-  ],
+    'Messaging board with profiles, allows users to follow and be followed, as well as post messages.'
+  ),
 ]
-
-const projects = projectData.map(project => {
-  return createProjectItem(project)
-});
 
 export default projects;

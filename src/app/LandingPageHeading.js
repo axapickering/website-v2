@@ -15,10 +15,8 @@ export default function LandingPageHeading() {
       width={'70vw'}
       padding={'4'}
     >
-      <Typography sx={{ fontSize: { xs: '1.6rem', md: '2.5rem', lg: '3rem' }, }} textAlign={'center'}>
-        Software Engineer
-        x
-        Personal Trainer
+      <Typography sx={{ fontSize: { xs: '1.6rem', md: '2.5rem', lg: '3rem' }, }} textAlign={'center'} color={'white'}>
+        Software Engineer // Certified Personal Trainer
       </Typography>
     </Box>
   );

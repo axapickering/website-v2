@@ -8,7 +8,7 @@ export default function headshot() {
       position='absolute'
       left='5%'
       top='15%'
-      maxHeight={'20vh'}
+      height={'40vh'}
       borderRadius={'30%'}
       src='/headshot.jpg'
       alt='a picture of me. i am smiling.' />

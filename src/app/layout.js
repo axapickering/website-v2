@@ -14,12 +14,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-blue-200 ${inter.className}`}>
+      <body className={`bg-[#4A294A] ${inter.className}`}>
         <AppRouterCacheProvider>
           <Box height={'10vh'}>
           <Header />
-          {children}
           </Box>
+          {children}
         </AppRouterCacheProvider>
       </body>
     </html>
